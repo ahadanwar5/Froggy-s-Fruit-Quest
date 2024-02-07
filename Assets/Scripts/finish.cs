@@ -26,5 +26,8 @@ public class finish : MonoBehaviour
     private void CompleteLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().name == "Level 2")
+            BGmusic.instance.GetComponent<AudioSource>().Pause();
     }
+
 }

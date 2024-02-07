@@ -12,5 +12,6 @@ public class restart : MonoBehaviour
         playerLife player = new playerLife();
         player.resetLives();
         SceneManager.LoadScene("Level 1");
+        BGmusic.instance.GetComponent<AudioSource>().Play();
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - apple
   - trap
+  - bg_music
   layers:
   - Default
   - TransparentFX
